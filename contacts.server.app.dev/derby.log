@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Tue Nov 05 09:06:16 CET 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046): instance a816c00e-0192-fb5c-3333-00001dc3bc78 
+on database directory C:\Users\IVBDM\workspace\helloscout\derby\contacts-database with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa 
+Loaded from file:/C:/Users/ADMIVBDM/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=17.0.12+8-LTS-286
+user.dir=C:\Users\IVBDM\workspace\helloscout3\contacts\contacts.server.app.dev
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Nov 05 09:06:54 CET 2024: Shutting down Derby engine
+----------------------------------------------------------------
+Tue Nov 05 09:06:54 CET 2024:
+Shutting down instance a816c00e-0192-fb5c-3333-00001dc3bc78 on database directory C:\Users\IVBDM\workspace\helloscout\derby\contacts-database with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa 
+----------------------------------------------------------------
