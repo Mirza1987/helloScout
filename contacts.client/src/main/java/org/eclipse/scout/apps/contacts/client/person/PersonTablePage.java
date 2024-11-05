@@ -35,7 +35,7 @@ public class PersonTablePage extends AbstractPageWithTable<Table> {
     return true;
   }
 
-  /*LASTTASK
+  /*LASTTASK*/
   private String organizationId;
 
   public String getOrganizationId() {
@@ -44,14 +44,14 @@ public class PersonTablePage extends AbstractPageWithTable<Table> {
 
   public void setOrganizationId(String organizationId) {
     this.organizationId = organizationId;
-  }*/
+  }
 
   @Override
   protected void execLoadData(SearchFilter filter) {
 
-    importPageData(BEANS.get(IPersonService.class).getPersonTableData(filter));
+    //importPageData(BEANS.get(IPersonService.class).getPersonTableData(filter));
     //LASTTASK
-    //importPageData(BEANS.get(IPersonService.class).getPersonTableData(filter, getOrganizationId()));
+    importPageData(BEANS.get(IPersonService.class).getPersonTableData(filter, getOrganizationId()));
   }
 
   @Override
@@ -292,7 +292,7 @@ public class PersonTablePage extends AbstractPageWithTable<Table> {
       protected void execAction() {
         PersonForm form = new PersonForm();
         // LASTTASK
-        // form.getOrganizationField().setValue(getOrganizationId());
+        form.getOrganizationField().setValue(getOrganizationId());
         form.addFormListener(new PersonFormListener());
         // start the form using its new handler
         form.startNew();
