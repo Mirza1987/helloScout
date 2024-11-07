@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <available file="C:\Users\IVBDM\workspace\helloscout\contacts.ui.html/../target/npm_update_20241106-121946.marker" property="master_skip_npm_update" />
+  </target>
+</project>

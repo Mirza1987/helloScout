@@ -10,8 +10,10 @@ import org.eclipse.scout.rt.client.ui.action.menu.IMenu;
 import org.eclipse.scout.rt.client.ui.action.menu.IMenuType;
 import org.eclipse.scout.rt.client.ui.action.menu.TableMenuType;
 import org.eclipse.scout.rt.client.ui.basic.table.AbstractTable;
+import org.eclipse.scout.rt.client.ui.basic.table.ITableRow;
 import org.eclipse.scout.rt.client.ui.basic.table.columns.AbstractStringColumn;
 import org.eclipse.scout.rt.client.ui.desktop.outline.pages.AbstractPageWithTable;
+import org.eclipse.scout.rt.client.ui.desktop.outline.pages.IPage;
 import org.eclipse.scout.rt.client.ui.form.FormEvent;
 import org.eclipse.scout.rt.client.ui.form.FormListener;
 import org.eclipse.scout.rt.platform.BEANS;
@@ -31,24 +33,26 @@ public class OrganizationTablePage extends AbstractPageWithTable<Table> {
   protected String getConfiguredTitle() {
     return TEXTS.get("Organizations");
   }
-  @Override
+
+  //blocks displaying the nodes created under organization
+  /*@Override
   protected boolean getConfiguredLeaf() {
     return true;
-  }
+  }*/
 
   @Override
   protected void execLoadData(SearchFilter filter) {
     importPageData(BEANS.get(IOrganizationService.class).getOrganizationTableData(filter));
   }
 
-  /* LASTTASK
+  /* LASTTASK */
+  //creates organization child pages
   @Override
   protected IPage<?> execCreateChildPage(ITableRow row) {
     OrganizationNodePage childPage = new OrganizationNodePage();
     childPage.setOrganizationId(getTable().getOrganizationIdColumn().getValue(row));
     return childPage;
   }
-*/
 
   @Override
   protected String getConfiguredIconId() {
@@ -217,6 +221,5 @@ public class OrganizationTablePage extends AbstractPageWithTable<Table> {
         }
       }
     }
-
   }
 }

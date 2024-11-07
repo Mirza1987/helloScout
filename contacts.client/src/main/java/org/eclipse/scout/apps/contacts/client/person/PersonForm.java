@@ -69,6 +69,10 @@ public class PersonForm extends AbstractForm {
     return getFieldByClass(MainBox.DetailsBox.ContactInfoBox.AddressBox.LocationBox.CountryField.class);
   }*/
 
+  public MainBox.GeneralBox.CreditCardBox getCreditCardBox() {
+    return getFieldByClass(MainBox.GeneralBox.CreditCardBox.class);
+  }
+
   public MainBox.GeneralBox.DateOfBirthField getDateOfBirthField() {
     return getFieldByClass(MainBox.GeneralBox.DateOfBirthField.class);
   }
@@ -194,6 +198,15 @@ public class PersonForm extends AbstractForm {
         }
       }
 
+
+      @Order(6000)
+      @ClassId("49f58672-fbf4-483e-b6fd-dce8ac4d33b0")
+      public class CreditCardBox extends AbstractCreditCardBox {
+        @Override
+        protected String getConfiguredLabel() {
+          return TEXTS.get("IBAN");
+        }
+      }
     }
 
     @Order(1500) //The DetailsBox tab box will contain the various tabs implemented in inner group boxes.

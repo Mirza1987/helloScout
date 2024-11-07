@@ -1,0 +1,13 @@
+C:\Users\IVBDM\workspace\helloscout\contacts.server\src\main\java\org\eclipse\scout\apps\contacts\server\ServerSession.java
+C:\Users\IVBDM\workspace\helloscout\contacts.server\src\main\java\org\eclipse\scout\apps\contacts\server\sql\DerbySqlService.java
+C:\Users\IVBDM\workspace\helloscout\contacts.server\src\main\java\org\eclipse\scout\apps\contacts\server\person\PersonService.java
+C:\Users\IVBDM\workspace\helloscout\contacts.server\src\main\java\org\eclipse\scout\apps\contacts\server\sql\SuperUserRunContextProducer.java
+C:\Users\IVBDM\workspace\helloscout\contacts.server\src\main\java\org\eclipse\scout\apps\contacts\server\common\PictureService.java
+C:\Users\IVBDM\workspace\helloscout\contacts.server\src\main\java\org\eclipse\scout\apps\contacts\server\organization\OrganizationService.java
+C:\Users\IVBDM\workspace\helloscout\contacts.server\src\main\java\org\eclipse\scout\apps\contacts\server\sql\SQLs.java
+C:\Users\IVBDM\workspace\helloscout\contacts.server\src\main\java\org\eclipse\scout\apps\contacts\server\sql\DatabaseSetupService.java
+C:\Users\IVBDM\workspace\helloscout\contacts.server\src\main\java\org\eclipse\scout\apps\contacts\server\sql\DatabaseProperties.java
+C:\Users\IVBDM\workspace\helloscout\contacts.server\src\main\java\org\eclipse\scout\apps\contacts\server\organization\OrganizationLookupService.java
+C:\Users\IVBDM\workspace\helloscout\contacts.server\src\main\java\org\eclipse\scout\apps\contacts\server\sql\IDataStoreService.java
+C:\Users\IVBDM\workspace\helloscout\contacts.server\src\main\java\org\eclipse\scout\apps\contacts\server\security\ServerAccessControlService.java
+C:\Users\IVBDM\workspace\helloscout\contacts.server\src\main\java\org\eclipse\scout\apps\contacts\server\ServerServletFilter.java

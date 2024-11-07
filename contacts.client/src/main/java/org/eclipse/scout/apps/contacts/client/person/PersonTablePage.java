@@ -48,9 +48,6 @@ public class PersonTablePage extends AbstractPageWithTable<Table> {
 
   @Override
   protected void execLoadData(SearchFilter filter) {
-
-    //importPageData(BEANS.get(IPersonService.class).getPersonTableData(filter));
-    //LASTTASK
     importPageData(BEANS.get(IPersonService.class).getPersonTableData(filter, getOrganizationId()));
   }
 
@@ -291,7 +288,6 @@ public class PersonTablePage extends AbstractPageWithTable<Table> {
       @Override
       protected void execAction() {
         PersonForm form = new PersonForm();
-        // LASTTASK
         form.getOrganizationField().setValue(getOrganizationId());
         form.addFormListener(new PersonFormListener());
         // start the form using its new handler

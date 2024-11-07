@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Eclipse" />
+  </component>
+  <component name="EclipseCompilerSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="contacts" options="-proc:none -warn:-unusedImport" />
+      <module name="contacts-root" options="-proc:none -warn:-unusedImport" />
+      <module name="contacts.client" options="-proc:none -warn:-unusedImport" />
+      <module name="contacts.server" options="-proc:none -warn:-unusedImport" />
+      <module name="contacts.server.app" options="-proc:none -warn:-unusedImport" />
+      <module name="contacts.server.app.dev" options="-proc:none -warn:-unusedImport" />
+      <module name="contacts.server.app.image" options="-proc:none -warn:-unusedImport" />
+      <module name="contacts.server.app.zip" options="-proc:none -warn:-unusedImport" />
+      <module name="contacts.shared" options="-proc:none -warn:-unusedImport" />
+      <module name="contacts.ui.html" options="-proc:none -warn:-unusedImport" />
+      <module name="contacts.ui.html.app" options="-proc:none -warn:-unusedImport" />
+      <module name="contacts.ui.html.app.dev" options="-proc:none -warn:-unusedImport" />
+      <module name="contacts.ui.html.app.image" options="-proc:none -warn:-unusedImport" />
+      <module name="contacts.ui.html.app.zip" options="-proc:none -warn:-unusedImport" />
+    </option>
+  </component>
+</project>
